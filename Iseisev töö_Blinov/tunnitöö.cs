@@ -14,16 +14,16 @@ namespace Iseisev_töö_Blinov
              var glasnie = new HashSet<char> { 'a', 'e', 'y', 'u', 'o' };
 
              Console.WriteLine("Sisestage lause");
-             string slova = Console.ReadLine().ToLower();
+             string sõnad = Console.ReadLine().ToLower();
 
-             for (int i = 0; i < slova.Length; i++)
+             for (int i = 0; i < sõnad.Length; i++)
              {
-                 if (glasnie.Contains(slova[i]))
+                 if (glasnie.Contains(sõnad[i]))
                  {
                      total++;
                  }
              }
-             Console.WriteLine("Teie vokaalide koguarv on: {0}", total);
+             Console.WriteLine("Sinu vokaalide koguarv on: {0}", total);
 
         }
         public static void Ülesanne2()
@@ -32,10 +32,13 @@ namespace Iseisev_töö_Blinov
             var n = int.Parse(Console.ReadLine());
             var a = new int[n];
             var r = new Random();
+            var count = 0;
             for (var i = 0; i < n; i++)
-                a[i] = r.Next(-2000, 2000);
-            Console.WriteLine("Count {0}", a.Count(x => x > -100 && x < 100));
-
+            {
+                a[i] = r.Next(-100, 100);
+                if (a[i] > -100 && a[i] < 100) count++;
+            }
+            Console.WriteLine("Count {0}", count);
         }
 
         public static void Ülesanne3()
