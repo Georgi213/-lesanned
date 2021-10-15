@@ -1,0 +1,7 @@
+C:\Users\opilane\source\repos\Iseisev töö_Blinov\bin\Debug\Iseisev töö_Blinov.exe.config
+C:\Users\opilane\source\repos\Iseisev töö_Blinov\bin\Debug\Iseisev töö_Blinov.exe
+C:\Users\opilane\source\repos\Iseisev töö_Blinov\bin\Debug\Iseisev töö_Blinov.pdb
+C:\Users\opilane\source\repos\Iseisev töö_Blinov\obj\Debug\Iseisev töö_Blinov.csprojAssemblyReference.cache
+C:\Users\opilane\source\repos\Iseisev töö_Blinov\obj\Debug\Iseisev töö_Blinov.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\Iseisev töö_Blinov\obj\Debug\Iseisev töö_Blinov.exe
+C:\Users\opilane\source\repos\Iseisev töö_Blinov\obj\Debug\Iseisev töö_Blinov.pdb
