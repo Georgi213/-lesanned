@@ -10,26 +10,20 @@ namespace Iseisev_töö_Blinov
     {
         public static void Ülesanne1()
         {
-            Console.WriteLine("Sisestage suvalise pikkusega string:");
-            string str = Console.ReadLine();
-            Console.WriteLine("Sisestage märk, et leida selle esinemise protsent stringist:");
-            char sym = Console.ReadKey().KeyChar;
-            Console.WriteLine();
+            int total = 0;
+             var glasnie = new HashSet<char> { 'a', 'e', 'y', 'u', 'o' };
 
-            int length = str.Length;
-            char[] strArr = str.ToCharArray();
-            int counter = 0;
-            for (int i = 0; i < length; i++)
-            {
-                if (strArr[i] == sym)
-                {
-                    counter++;
-                }
-            }
-            double lengthDouble = Convert.ToDouble(length);
-            double counterDouble = Convert.ToDouble(counter);
-            double prc = (counterDouble / lengthDouble) * 100;
-            Console.WriteLine($"Märgi esinemise protsent {sym} on võrdne {prc}%");
+             Console.WriteLine("Sisestage lause");
+             string slova = Console.ReadLine().ToLower();
+
+             for (int i = 0; i < slova.Length; i++)
+             {
+                 if (glasnie.Contains(slova[i]))
+                 {
+                     total++;
+                 }
+             }
+             Console.WriteLine("Teie vokaalide koguarv on: {0}", total);
 
         }
         public static void Ülesanne2()
