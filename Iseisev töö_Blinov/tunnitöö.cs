@@ -10,7 +10,7 @@ namespace Iseisev_töö_Blinov
     {
         public static void Ülesanne1()
         {
-            int total = 0;
+             int total = 0;
              var glasnie = new HashSet<char> { 'a', 'e', 'y', 'u', 'o' };
 
              Console.WriteLine("Sisestage lause");
